@@ -1,0 +1,35 @@
+#container-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100%;
+
+}
+.button{
+    font-family: 'Playfair Display', serif;
+    cursor: pointer;
+}
+.button:hover{
+    opacity: .7;
+    color: #FE64A3;
+}
+#verticalLine{
+    border-left: 1px solid rgb(141, 141, 141);
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 20px;
+    align-self: center;
+}
+
+
+
+.authorizeButton{
+    align-self: left;
+    background-color: green;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 20%;
+}
